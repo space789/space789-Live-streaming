@@ -4,7 +4,7 @@ This project is a live streaming platform that allows users to create and join r
 
 ## stream screenshot
 ![stream](pic/screenshot.png)
-![stream](pic/screenshot.png)
+![stream](pic/screenshot2.png)
 
 ## Architecture
 ![architecture](pic/System%20architecture%20diagram.png)
