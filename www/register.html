@@ -1,0 +1,96 @@
+<html lang="zh-TW">
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='styles/lobby.css'>
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <title>註冊新帳號</title>
+        <script src="./js/color_system.js"></script>
+        <script>
+            
+            function validateForm() {
+                var x = document.forms["registerForm"]["password"].value;
+                var y = document.forms["registerForm"]["password_check"].value;
+                if(x.length<6){
+                    alert("密碼長度不足！");
+                    return false;
+                }
+                if (x != y) {
+                    alert("密碼、重複密碼欄位不一致！");
+                    return false;
+                }
+            }
+        </script> 
+
+    </head>
+
+    <body>
+        <!-- <h1>註冊頁面</h1>
+
+        <form name="registerForm" method="post" action="register.php" onsubmit="return validateForm()">
+        帳  號：
+            <input type="text" name="username"><br/><br/>
+        電子信箱:
+            <input type="email" name="email"><br/><br/>
+        密  碼:
+            <input type="password" name="password" id="password"><br/><br/>
+        確認密碼：
+            <input type="password" name="password_check" id="password_check"><br/><br/>
+        <input type="submit" value="註冊" name="submit">
+        <input type="reset" value="重設" name="submit">
+        
+        </form> -->
+        <main id="room__lobby__container">
+            <div id="form__container">
+                 <div id="form__container__header">
+                     <p size="1">註冊新帳號</p>
+                 </div>
+     
+     
+                <form method="post" name="registerForm" action="register.php" id="lobby__form" onsubmit="return validateForm()">
+     
+                     <div class="form__field__wrapper">
+                         <label>> 您的帳號</label>
+                         <input type="text" name="username" placeholder="取個名字...">
+                         <!-- <input type="text" name="name" value="<?php echo $username; ?>"/>  -->
+                     </div>
+
+                     <div class="form__field__wrapper">
+                        <label>> 您的電子郵件信箱</label>
+                        <input type="email" name="email" placeholder="電子郵件..." />
+                    </div>
+
+                     <div class="form__field__wrapper">
+                         <label>> 設定密碼</label>
+                         <input type="password" name="password" placeholder="設定密碼..." />
+                     </div>
+
+                     <div class="form__field__wrapper">
+                        <label>> 確認密碼</label>
+                        <input type="password" name="password_check" placeholder="請再輸入一次密碼..." />
+                    </div>
+
+                     <div class="form__field__wrapper">
+                         <button type="submit" value="註冊" name="submit">送出申請  ➜
+                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg> -->
+                        </button>
+                        <button type="reset" value="重設" name="reset">清空表單內容
+                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg> -->
+                        </button>
+                        <!-- <button type="button" value="登入" onclick="window.location.href='index.php';">登入 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg>
+                       </button> -->
+                        <a href="index.php" name="back">已有帳號？點我登入！
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg> -->
+                        </a>
+                     </div>
+                </form>
+            </div>
+         </main>
+    </body>
+    
+</html>
