@@ -104,3 +104,10 @@ This configuration is set up for php:7.3.3-apache and generates self-signed cert
     ```
 
 By utilizing the provided files in this project, you can easily set up a LAMP architecture website. To remove Docker, please ensure to modify the .env environment configuration file with the following details: file path (must be a complete path), database password, and PORT.
+
+
+# Contributors
+
+- [Shao-Yu Li]( )
+- [Ying-Chien Chien]( )
+- [Bo-Ying Wang]( )
