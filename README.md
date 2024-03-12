@@ -7,13 +7,16 @@ This project is a live streaming platform that allows users to create and join r
 ![stream](pic/screenshot.png)
 
 ## Architecture
-![architecture](pic/System architecture diagram.png)
+![architecture](pic/System%20architecture%20diagram.png)
 
 ## Implementation flowchart
-![flowchart](pic/Implementation process.png)
+![flowchart](pic/Implementation%20process.png)
 
 ## Regist flowchart
-![flowchart](pic/login flow chart.png)
+![flowchart](pic/login%20flow%20chart.png)
+
+## API flowchart
+![flowchart](pic/API%20chart.png)
 
 ## Features
 
