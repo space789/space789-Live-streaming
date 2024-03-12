@@ -6,11 +6,14 @@ This project is a live streaming platform that allows users to create and join r
 ![stream](pic/screenshot.png)
 ![stream](pic/screenshot.png)
 
-## Flowchart
-![flowchart](pic/flowchart.png)
-
 ## Architecture
-![architecture](pic/architecture.png)
+![architecture](pic/System architecture diagram.png)
+
+## Implementation flowchart
+![flowchart](pic/Implementation process.png)
+
+## Regist flowchart
+![flowchart](pic/login flow chart.png)
 
 ## Features
 
@@ -65,7 +68,7 @@ This project is a live streaming platform that allows users to create and join r
 
 # Quick Setup
 
-## HTTPS, DNS:
+## HTTPS, DNS
 
 1. **Update Software and Install Certbot Dependencies:**
     ```
