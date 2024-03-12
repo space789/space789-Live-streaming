@@ -40,7 +40,7 @@ function get_yt_stream_link(yt_link){
 
     xhr.open(
         "POST",
-        "https://sercfgbnmol.azurewebsites.net/api/HttpTrigger1?code=IfxxoRPy8Z8U7CYeU8rdlT104RPSyuPWmuvXfuFZdBE5AzFuN1EvRQ=="
+        ""  // add your server link here
     );
     xhr.setRequestHeader(
         "link",

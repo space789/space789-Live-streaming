@@ -3,7 +3,7 @@
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://sercfgbnmol.azurewebsites.net/api/HttpTrigger1?code=IfxxoRPy8Z8U7CYeU8rdlT104RPSyuPWmuvXfuFZdBE5AzFuN1EvRQ==',
+    CURLOPT_URL => '', // Add the API URL here
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
